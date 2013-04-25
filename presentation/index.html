@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>GEEK Konferenz</title>
+
+		<meta name="description" content="Presentation for the Unity3D workshop during the GEEK Konferenz at Hochschule Augsburg (Munich)">
+		<meta name="author" content="Richard Stromer">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="assets/css/reveal.min.css">
+		<link rel="stylesheet" href="assets/css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="assets/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="assets/lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style type="text/css">
+			.reveal ol,
+			.reveal ul {
+				line-height: 1.5em;
+			}
+			.reveal section img {
+				border: none;
+				box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+				border-radius: 5px;
+			}
+	    </style>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Unity 3D</h1>
+					<h3>Workshop | GEEK Konferenz</h3>
+					<br>
+					<p><small>25. April 2013 | Richard Stromer</small></p>
+				</section>
+
+				<section>
+					<section>
+						<h3>Inhalt</h3>
+						<p>
+							<ul>
+								<li>Was ist Unity 3D?</li>
+								<li>Editor Grundlagen</li>
+								<li>Workshop</li>
+							</ul>
+						</p>
+					</section>
+
+					<section>
+						<h3>Inhalt Workshop</h3>
+						<p>
+							<ul>
+								<li>Geometrie</li>
+								<li>Kamera &amp; Skybox</li>
+								<li>Terrain</li>
+								<li>Licht</li>
+								<li>Charakter &amp; Steuerung</li>
+								<li>Instanziierung</li>
+								<li>...</li>
+								<li>Partikel System</li>
+							</ul>
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Was ist Unity 3D?</h3>
+						<br>
+						<p>
+							<ul>
+								<li>Game-Engine</li>
+								<li>Cross Platform</li>
+								<li>Freemium-Modell</li>
+							</ul>
+						</p>
+						<br>
+						<p><a href="http://unity3d.com/">http://unity3d.com/</a></p>
+					</section>
+
+					<section>
+						<dl>
+							<dt>Programmierung</dt>
+							<dd>JavaScript, <b>C#</b>, Boo, (C++)</dd>
+							<br>
+							<dt>Plattformen</dt>
+							<dd>Windows, Linux, OS X, Android, iOS, PlayStation 3, Xbox 360, Wii U, (Flash), Webplayer</dd>
+							<br>
+							<dt>Lizenz</dt>
+							<dd>Unity kostenlos, Unity Pro für 1500$</dd>
+						</dl>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Editor Grundlagen</h3>
+
+						<p><img src="images/LearningtheInterface.jpg" /></p>
+
+						<small><a href="http://docs.unity3d.com/Documentation/Manual/UnityBasics.html">http://docs.unity3d.com/Documentation/Manual/UnityBasics.html</a></small>
+					</section>
+
+					<section>
+						<h3>Project Browser</h3>
+
+						<p><img src="images/ProjectView.jpg" /></p>
+
+						<small><a href="http://docs.unity3d.com/Documentation/Manual/ProjectView40.html">http://docs.unity3d.com/Documentation/Manual/ProjectView40.html</a></small>
+					</section>
+
+					<section>
+						<h3>Hierarchy</h3>
+
+						<p><img src="images/Hierarchy.jpg" /></p>
+
+						<small><a href="http://docs.unity3d.com/Documentation/Manual/Hierarchy.html">http://docs.unity3d.com/Documentation/Manual/Hierarchy.html</a></small>
+					</section>
+
+					<section>
+						<h3>Toolbar</h3>
+
+						<p><img src="images/Toolbar.jpg" /></p>
+
+						<small><a href="http://docs.unity3d.com/Documentation/Manual/Toolbar.html">http://docs.unity3d.com/Documentation/Manual/Toolbar.html</a></small>
+					</section>
+
+					<section>
+						<h3>Scene View</h3>
+
+						<p><img src="images/SceneView.jpg" /></p>
+
+						<small><a href="http://docs.unity3d.com/Documentation/Manual/SceneView40.html">http://docs.unity3d.com/Documentation/Manual/SceneView40.html</a></small>
+					</section>
+
+					<section>
+						<h3>Game View</h3>
+
+						<p><img src="images/GameView.jpg" /></p>
+
+						<small><a href="http://docs.unity3d.com/Documentation/Manual/GameView40.html">http://docs.unity3d.com/Documentation/Manual/GameView40.html</a></small>
+					</section>
+
+					<section>
+						<h3>Inspector</h3>
+
+						<p><img src="images/Inspector.jpg" /></p>
+
+						<small><a href="http://docs.unity3d.com/Documentation/Manual/Inspector.html">http://docs.unity3d.com/Documentation/Manual/Inspector.html</a></small>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Workshop</h3>
+						<br>
+						<p>
+							<ul>
+								<li>Geometrie</li>
+								<li>Kamera &amp; Skybox</li>
+								<li>Terrain</li>
+								<li>Licht</li>
+								<li>Charakter &amp; Steuerung</li>
+								<li>Instanziierung</li>
+								<li>...</li>
+							</ul>
+						</p>
+					</section>
+
+					<section>
+						<h3>Workshop</h3>
+
+						<p><img src="images/Game.jpg" /></p>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="assets/lib/js/head.min.js"></script>
+		<script src="assets/js/reveal.min.js"></script>
+
+		<script>
+			// Full list of configuration options available here: https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+		        mouseWheel: false,
+		        rollingLinks: false,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'assets/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'assets/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'assets/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'assets/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
