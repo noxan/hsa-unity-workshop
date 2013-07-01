@@ -8,4 +8,4 @@ Standard Unity Assets for terrain and skyboxes are missing.
 
 ## Presentation
 
-http://noxan.github.io/hsa-unity-workshop/presentation/index.html
+http://noxan.github.io/hsa-unity-workshop/
