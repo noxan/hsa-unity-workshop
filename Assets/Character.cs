@@ -6,9 +6,10 @@ public class Character : MonoBehaviour {
 
     public GameObject rocket;
 
-    private float lastTime = Time.time;
+    private float lastTime;
 
     private void Start () {
+        this.lastTime = Time.time;
         this.trans = transform;
     }
 
